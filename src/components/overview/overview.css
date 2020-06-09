@@ -1,0 +1,41 @@
+div.task_sidebar-container {
+  padding-left: 20px;
+}
+
+.task_icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.task_inhouse {
+  background-color: #4ac14a;
+}
+
+.task_reserved {
+  background-color: #3434d5;
+}
+
+.task_ooo {
+  background-color: orange;
+}
+
+.task_workorder {
+  background-color: yellow;
+}
+
+ul.task_status-container {
+  list-style-type: none;
+  padding: 0px;
+}
+
+ul.task_status-container li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 7px;
+}
+
+div.task_action-container a {
+  text-decoration: none;
+}

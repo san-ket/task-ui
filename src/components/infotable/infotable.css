@@ -1,0 +1,54 @@
+.task_infotable {
+  width: 97%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+tbody tr:nth-child(odd) .task_infotable_cell {
+  background-color: lightgray;
+}
+tbody td {
+  padding: 10px;
+}
+
+thead th {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #bdbcbc;
+}
+.task_colspan-inhouse {
+  background-color: #4ac14a;
+  cursor: pointer;
+  text-align: center;
+  padding: 7px 5px;
+  border-radius: 20px;
+  display: inline-block;
+  width: 99%;
+  color: #ffffff;
+}
+
+.task_colspan-reserved {
+  background-color: #3434d5;
+  text-align: center;
+  cursor: pointer;
+  padding: 7px 5px;
+  border-radius: 20px;
+  display: inline-block;
+  width: 90%;
+  color: #ffffff;
+}
+
+.task_colspan-available {
+  text-align: center;
+  padding: 7px 5px;
+  display: inline-block;
+  width: 90%;
+}
+.task_infotable-room {
+  color: #3434d5;
+}

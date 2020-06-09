@@ -1,0 +1,13 @@
+button.task_update-date {
+    cursor: pointer;
+    background-color: blue;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    padding: 4px 10px;
+}
+
+input.task_date-picker {
+    margin: 0px 12px;
+    display: inline-block;
+}
